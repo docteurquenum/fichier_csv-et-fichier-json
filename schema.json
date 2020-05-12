@@ -1,0 +1,106 @@
+{
+    "name":"HDR_2007_2008_Table_30_Schema",
+    "title":"Table 30 csv Schema",
+    "description":"A schema for the first exercice",
+    "fields":[
+        {
+            "name":"Rank",
+            "title":"Column HDI rank",
+            "type":"integer",
+            "description":"Human Development Index rank"
+        },
+        {
+            "name":"HMD Level",
+            "title":"Column Human dev level",
+            "type":"string",
+            "description":"Human development level",
+            "constraints":{
+                "enum":[
+                    "HIGH","LOW","MEDIUM"
+                ]
+            }
+
+        },
+        {
+            "name":"Country",
+            "title":"column Investiged country name",
+            "type":"string",
+            "description":"Investiged country name"
+
+        },
+        {
+            "name":"Ad_lit_Fem",
+            "title":"column Adult literacy female rate",
+            "type":"number",
+            "description":"Adult literacy female rate (%aged 15 and older) between 1995-2005"
+        },
+        {
+            "name":"Ad_lit_rat_femrate_malrate",
+            "title":"Column Adult literacy ratio of female rate to male rate ",
+            "type":"number",
+            "description":"Column Adult literacy ratio of female rate to male rate between 1995-2005"
+
+        },
+        {
+            "name":"Yout_lit_Fem_rate",
+            "title":"Column Youth literacy ratio female rate(%age 15-24) ",
+            "type":"number",
+            "description":"Youth literacy ratio female rate between 1995-2005"
+        },
+        {
+            "name":"Yout_lit_rat_femrate_malrate",
+            "title":"Column Youth literacy ratio of female to male rate ",
+            "type":"number",
+            "description":"Youth literacy ratio of female rate to male rate between 1995-2005 "
+        },
+        {
+            "name":"Net_prim_enr_fem_rate",
+            "title":"Column Net primary enrolment Female rate(%)",
+            "type":"number",
+            "description":"Net primary enrolment Female rate(%) in 2005"
+        },
+        {
+            "name":"Net_prim_enr_rat_femrate_malrate",
+            "title":"Column Net primary enrolment ratio of Female rate to male rate  ",
+            "type":"number",
+            "description":"Net primary enrolment ratio of Female rate to male rate in 2005"
+        },
+        {
+            "name":"Gross_prim_enr_fem_rat",
+            "title":"Column Gross primary enrolment Female ratio(%)",
+            "type":"number",
+            "description":"Gross primary enrolment Female ratio(%) in 2005"
+        },
+        {
+            "name":"Gross_prim_enr_rat_femrate_malrate",
+            "title":"Column Gross primary enrolment ratio of female rate to male rate",
+            "type":"number",
+            "description":"Gross primary enrolment ratio of female rate to male rate in 2005"  
+        },
+        {
+            "name":"Gross_sec_enr_femrat",
+            "title":"Column Gross secondary enrolment  female ratio",
+            "type":"number",
+            "description":"Gross secondary enrolment female ratio (%) in 2005"    
+        },
+        {
+            "name":"Gross_sec_enr_rat_femrate_malrate",
+            "title":"Column Gross secondary enrolment ratio of female rate to male rate",
+            "type":"number",
+            "description":"Gross secondary enrolment ratio of female rate to male in 2005"        
+        },
+        {
+            "name":"Gross_ter_enr_female_rat",
+            "title":"Column Gross tertiary enrolment Female ratio (%)",
+            "type":"number",
+            "description":"Gross tertiary enrolment Female ratio (%) in 2005"    
+        },
+        {
+            "name":"Gross_ter_enr_rat_femrate_malrate",
+            "title":"Column tertiary enrolment ratio of female rate to male rate ",
+            "type":"number",
+            "description":"Gross tertiary enrolment ratio of female rate to male rate in 2005"  
+        }
+    ],
+    "missingsValues":[" "]
+}
